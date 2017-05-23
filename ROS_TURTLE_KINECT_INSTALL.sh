@@ -31,19 +31,19 @@ sudo apt-get -y install  ros-kinetic-gazebo-ros ros-kinetic-gazebo-plugins ros-k
 
 
 
-echo "export TURTLEBOT_STAGE_MAP_FILE=/maps/maze.yaml" >> .bashrc
-echo "export TURTLEBOT_3D_SENSOR=kinect" >> .bashrc
-echo "export TURTLEBOT_STACKS=hexagons" >> .bashrc
-echo "export TURTLEBOT_SIMULATION=false" >> .bashrc
-echo "export TURTLEBOT_RAPP_PACKAGE_WHITELIST=[rocon_apps, turtlebot_rapps]" >> .bashrc
-echo "export TURTLEBOT_STDR_MAP_FILE=/maps/sparse_obstacles.yaml" >> .bashrc
-echo "export TURTLEBOT_SERIAL_PORT=/dev/kobuki" >> .bashrc
-echo "export TURTLEBOT_BASE=kobuki" >> .bashrc
-echo "export TURTLEBOT_RAPP_PACKAGE_BLACKLIST=[]" >> .bashrc
-echo "export TURTLEBOT_TYPE=turtlebot" >> .bashrc
-echo "export TURTLEBOT_STAGE_WORLD_FILE=/maps/stage/maze.world" >> .bashrc
-echo "export TURTLEBOT_BATTERY=/sys/class/power_supply/BAT0" >> .bashrc
-echo "export TURTLEBOT_NAME=turtlebot" >> .bashrc
+echo "export TURTLEBOT_STAGE_MAP_FILE=/maps/maze.yaml" >> ~/.bashrc
+echo "export TURTLEBOT_3D_SENSOR=kinect" >> ~/.bashrc
+echo "export TURTLEBOT_STACKS=hexagons" >> ~/.bashrc
+echo "export TURTLEBOT_SIMULATION=false" >> ~/.bashrc
+echo "export TURTLEBOT_RAPP_PACKAGE_WHITELIST=[rocon_apps, turtlebot_rapps]" >> ~/.bashrc
+echo "export TURTLEBOT_STDR_MAP_FILE=/maps/sparse_obstacles.yaml" >> ~/.bashrc
+echo "export TURTLEBOT_SERIAL_PORT=/dev/kobuki" >> ~/.bashrc
+echo "export TURTLEBOT_BASE=kobuki" >> ~/.bashrc
+echo "export TURTLEBOT_RAPP_PACKAGE_BLACKLIST=[]" >> ~/.bashrc
+echo "export TURTLEBOT_TYPE=turtlebot" >> ~/.bashrc
+echo "export TURTLEBOT_STAGE_WORLD_FILE=/maps/stage/maze.world" >> ~/.bashrc
+echo "export TURTLEBOT_BATTERY=/sys/class/power_supply/BAT0" >> ~/.bashrc
+echo "export TURTLEBOT_NAME=turtlebot" >> ~/.bashrc
 
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
