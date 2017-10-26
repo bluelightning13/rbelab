@@ -3,13 +3,20 @@ ros scripts for 16.04, Kinetic, Turtlebots
 
 
 <h2><b>For installation instructions on the turtlebots:</b></h2>
+
 1) Make a Ubuntu ISO. 
+
 2) Press (Fn) F12 to load boot menu. Esc brings up grub and root options or left shift. F10 is BIOS. 
+
 3) Load from USB. If it can't, in BIOS make sure USB is enabled, Secure boot is disabled and that it not UEFI, but in legacy mode for booting. If there is an isolinux.iso error, then the USB is corrupt or the utility that burned the usb iso is bad.
+
 4) Install Linux. Erase entire drive to reinstall.
 		username & computer name: rbeadmin
+
 5) Install WPI wireless certificates on WPI-Open. 
+
 6) Download the ROS_KINETIC_TURTLEBOT file that is in this repo. And run this file using the source command. (E.x. source ROS_KINETIC.....)
+
 7) Notes for follower and gmapping programs - give minimal time to start or sensors may not be seen. 1-3 seconds. 
 
 
