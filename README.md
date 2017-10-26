@@ -19,6 +19,15 @@ ros scripts for 16.04, Kinetic, Turtlebots
 
 7) Notes for follower and gmapping programs - give minimal time to start or sensors may not be seen. 1-3 seconds. 
 
+<h2><b>For installation instructions on VM's:</b></h2>
+
+1) Install the Desktop version of Ubuntu 16.04.3 on a VM. Make sure the VM has at least 25GB of memory. 
+
+2) Use the ROS_TURTLE_KINETIC_INSTALL.sh script. Place that on the VM Desktop. Use the cd command in the terminal to go into your desktop directory and use the command: source ROS_TURTLE_KINETIC_INSTALL.sh.
+
+3) This will install more then you need (it installs the drivers for the turtlebot as well, however it won't be an issue).
+
+
 
 <h2><b>Issue Log:</b></h2>
 
